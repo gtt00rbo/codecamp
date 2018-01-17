@@ -1,0 +1,88 @@
+<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+<style>
+    .injected-text {
+    margin-bottom: -25px;
+    text-align: center;
+  }
+
+  .box {
+    border-style: solid;
+    border-color: silver;
+    border-width: 5px;
+    text-align: center;
+  }
+
+  .yellow-box {
+    background-color: rgb(60, 139, 36);
+    padding: 15px;
+  }
+  
+  .red-box {
+    background-color: rgba(183, 0, 255, 0.911);
+    padding: 25px;
+  }  
+  #cat-photo-form {
+  background-color: green;
+}
+  .silver-background {
+    background-color: silver;
+  }
+  .red-text {
+    color: red;
+  }
+
+  h2 {
+    font-family: Lobster, Monospace;
+  }
+
+  p {
+    font-size: 16px;
+    font-family: Monospace;
+  }
+
+  .thick-green-border {
+    border-color: green;
+    border-width: 10px;
+    border-style: solid;
+    border-radius: 50%;
+  }
+
+  .smaller-image {
+    width: 100px;
+  }
+</style>
+
+<h2 class="red-text">CatPhotoApp</h2>
+
+<p>Click here for <a href="#">cat photos</a>.</p>
+
+<a href="#"><img class="smaller-image thick-green-border" alt="A cute orange cat lying on its back. " src="https://bit.ly/fcc-relaxing-cat"></a>
+
+<p>Things cats love:</p>
+<ul>
+  <li>Purr</li>
+  <li>Jump</li>
+  <li>Eat</li>
+</ul>
+<p>Top 3 things cats hate:</p>
+<ol>
+  <li>Water</li>
+  <li>Dogs</li>
+  <li>Other cats</li>
+</ol>
+<form id="cat-photo-form" action="/submit-cat-photo">
+  <label><input type="checkbox" name="personality"> Loving</label>
+  <label><input type="checkbox" name="personality"> Darreing</label>        <label><input type="checkbox" name="personality"> Puffing</label>
+<p>
+ <label><input type="radio" name="indoor-outdoor"> Indoor</label>
+ <label><input type="radio" name="indoor-outdoor"> Outdoor</label>
+</p>
+ <input type="text" placeholder="cat photo URL" required>
+ <button type="submit">Submit</button>
+</form>
+<h5 class="injected-text">margin</h5>
+        
+<div class="box yellow-box">
+  <h5 class="box red-box">padding</h5>
+  <h5 class="box green-box">padding</h5>
+</div>
